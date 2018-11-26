@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800"
+@import "compass/css3"
+.unselectable{
+     background-color: #ddd;
+}
+.table-editable {
+  position: relative;
+  
+  .glyphicon {
+    font-size: 30px;
+  }
+}
+
+.table-remove {
+  color: #700;
+  cursor: pointer;
+  
+  &:hover {
+    color: #f00;
+  }
+}
+
+.table-up, .table-down {
+  color: #007;
+  cursor: pointer;
+  
+  &:hover {
+    color: #00f;
+  }
+}
+
+.table-add {
+  color: #070;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  
+  &:hover {
+    color: #0b0;
+  }
+}
